@@ -34,12 +34,10 @@ const Navbar = () => {
             Contact
           </a>
         </div>
-<div>
+        <div>
+          {/* Button */}
 
-
-        {/* Button */}
-       
-        <button className="btn">Login</button>
+          <button className="btn">Login</button>
         </div>
       </nav>
     </>
