@@ -3,19 +3,47 @@
 const Navbar = () => {
   return (
     <>
-      <div className="flex justify-evenly bg-slate-500 w-full">
-        <div className="logo">logo</div>
-        <div>
-          <ul className="flex p-2 m-2">
-            <li>Home</li>
-            <li>Home</li>
-            <li>Home</li>
-            <li>Home</li>
-            <li>Home</li>
-          </ul>
+      <nav className="bg-[#0C1C26] shadow-md py-4 px-6 flex items-center justify-between">
+        {/* Logo */}
+        <div className="text-white text-xl font-bold">Exploro Trivia</div>
+
+        {/* Links */}
+        <div className="flex space-x-6">
+          <a
+            href="#home"
+            className="text-gray-200 hover:text-yellow-400 font-medium"
+          >
+            Home
+          </a>
+          <a
+            href="#about"
+            className="text-gray-200 hover:text-yellow-400 font-medium"
+          >
+            About
+          </a>
+          <a
+            href="#services"
+            className="text-gray-200 hover:text-yellow-400 font-medium"
+          >
+            Services
+          </a>
+          <a
+            href="#contact"
+            className="text-gray-200 hover:text-yellow-400 font-medium"
+          >
+            Contact
+          </a>
         </div>
-        <div>profile</div>
-      </div>
+<div>
+
+
+        {/* Button */}
+        <button className="bg-[#FF7F50] text-white py-2 px-4 rounded-lg hover:bg-[#FFA07A] transition duration-300">
+          Login
+        </button>
+        <button className="btn">Login</button>
+        </div>
+      </nav>
     </>
   );
 };
