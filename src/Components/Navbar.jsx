@@ -38,9 +38,7 @@ const Navbar = () => {
 
 
         {/* Button */}
-        <button className="bg-[#FF7F50] text-white py-2 px-4 rounded-lg hover:bg-[#FFA07A] transition duration-300">
-          Login
-        </button>
+       
         <button className="btn">Login</button>
         </div>
       </nav>
