@@ -37,7 +37,15 @@ const Navbar = () => {
         <div>
           {/* Button */}
 
-          <button className="btn">Login</button>
+          <button className="btn">
+            
+          <a
+            href="#contact"
+            className="text-gray-200 hover:text-yellow-400 font-medium"
+          >
+            Contact
+          </a>
+          </button>
         </div>
       </nav>
     </>
